@@ -1,0 +1,28 @@
+"Source:","C:\Users\Sergio\Documents\KiCad\projects\SergioPico\SergioPico_USB\SergioPico_USB.kicad_sch"
+"Date:","9/13/2022 9:33:33 AM"
+"Tool:","Eeschema (6.0.0)"
+"Generator:","C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","8"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","JLBPCB part #"
+"","","D1","B5819W","Device:D_Schottky","Diode_SMD:D_SOD-123","~","C8598"
+"","","H1","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_4.3mm_M4","~",""
+"","","H2","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_4.3mm_M4","~",""
+"","","J1","XUNPU TYPEC-1103-BRP24","Connector:USB_C_Receptacle","Sergio_footprints:Xunpu C2856665 USBC Straddle Mount","https://www.usb.org/sites/default/files/documents/usb_type-c.zip","C2856665"
+"","","J2","Conn_01x04","Connector_Generic:Conn_01x04","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~",""
+"","","J3","Conn_01x04","Connector_Generic:Conn_01x04","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~",""
+"","","R1","5.1k","Device:R_Small","Resistor_SMD:R_0603_1608Metric","~","C23186"
+"","","R2","5.1k","Device:R_Small","Resistor_SMD:R_0603_1608Metric","~","C23186"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","JLBPCB part #"
+"1","1","D1","B5819W","Device:D_Schottky","Diode_SMD:D_SOD-123","~","C8598"
+"2","2","H1, H2","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_4.3mm_M4","~",""
+"3","1","J1","XUNPU TYPEC-1103-BRP24","Connector:USB_C_Receptacle","Sergio_footprints:Xunpu C2856665 USBC Straddle Mount","https://www.usb.org/sites/default/files/documents/usb_type-c.zip","C2856665"
+"4","2","J2, J3","Conn_01x04","Connector_Generic:Conn_01x04","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~",""
+"5","2","R1, R2","5.1k","Device:R_Small","Resistor_SMD:R_0603_1608Metric","~","C23186"

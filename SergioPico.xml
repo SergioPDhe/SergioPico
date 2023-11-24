@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Sergio\Documents\KiCad\projects\SergioPico\SergioPico.kicad_sch</source>
+    <date>9/18/2022 11:09:58 PM</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SergioPico.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="JLBPCB part #">C83060</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="JLBPCB part #" value="C83060"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac7f244e-c501-4468-8df7-7615c00daf6e</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>B5819W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="JLBPCB part #">C8598</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="JLBPCB part #" value="C8598"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a6c9bfc-2a5f-4064-9383-f11a58a9cba2</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3e7976f-f4f0-4c8d-911d-15d571e66385</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23992ee9-dcec-4164-86db-7cd4071024b6</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3b83016-d176-4984-92da-6a667527c67e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SergioPico_USB</value>
+      <footprint>Sergio_footprints:SergioPico_USB</footprint>
+      <libsource lib="Sergio_library" part="SergioPico_USB" description="Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a98f11db-6100-4033-80aa-6bcef366cd26</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>RUMBLE</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Motor" part="Motor_DC_ALT" description="DC Motor, alternative symbol"/>
+      <property name="JLBPCB part #" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9dcb901-dfed-40c8-90fa-a39b94e81074</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>RUMBLE</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Motor" part="Motor_DC_ALT" description="DC Motor, alternative symbol"/>
+      <property name="JLBPCB part #" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>912d630b-d6db-43ce-b638-c1ead5458cce</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>SS8050</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="JLBPCB part #">C2150</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <property name="JLBPCB part #" value="C2150"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed4fb2e3-eb78-414b-bc58-96a75482789a</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="JLBPCB part #">C22962</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="JLBPCB part #" value="C22962"/>
+      <property name="LCSC part #" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0609c1b4-e0f5-4862-b0b5-fa515758002c</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>L</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13f5fa8c-340d-4351-9b4a-6ea192894c83</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>MX</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f67cc169-2f9d-4079-89cf-8daff00934ef</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>LEFT</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12f4d24b-fad0-4bc0-9912-8f6297be7a81</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>R</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f30ce94-b080-4cf4-b7f6-af75b44d574c</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>B</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14e68fc4-d20f-48f2-839b-eab8a9fa5614</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>MY</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5990778-5db0-44da-b86d-cf40161e10c5</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>DOWN</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>167186bf-2c47-421b-af82-9164029d705d</tstamps>
+    </comp>
+    <comp ref="SW8">
+      <value>Y</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b583055d-8eb8-43b1-9934-e477a55d888f</tstamps>
+    </comp>
+    <comp ref="SW9">
+      <value>X</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50e92fd1-0e77-4d84-8225-6db0d0f3cc08</tstamps>
+    </comp>
+    <comp ref="SW10">
+      <value>RIGHT</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdb17eaf-b6a4-4dbb-9e6b-39e41c962701</tstamps>
+    </comp>
+    <comp ref="SW11">
+      <value>Z</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ffec877-2f9b-47b1-adcf-626fe7eab2d4</tstamps>
+    </comp>
+    <comp ref="SW12">
+      <value>START</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f8ca1b3-6679-4c54-986b-c63a9d0d1549</tstamps>
+    </comp>
+    <comp ref="SW13">
+      <value>MS</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>711d3f2b-379e-4a40-af07-9c0730c19dd9</tstamps>
+    </comp>
+    <comp ref="SW14">
+      <value>UP</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f386cca-2fc5-4f0b-898d-578fa09b8875</tstamps>
+    </comp>
+    <comp ref="SW15">
+      <value>LS</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0015393-e384-4b00-a601-7ab510c31d92</tstamps>
+    </comp>
+    <comp ref="SW16">
+      <value>C-LEFT</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f350a95b-f4d8-4104-b336-d6e50ccde379</tstamps>
+    </comp>
+    <comp ref="SW17">
+      <value>C-DOWN</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90e32cab-6da4-4357-a1a6-b30a3190c978</tstamps>
+    </comp>
+    <comp ref="SW18">
+      <value>C-UP</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db914fa6-6c48-438d-8f37-28d1c8331ace</tstamps>
+    </comp>
+    <comp ref="SW19">
+      <value>A</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15ac6ca2-8d6d-4f7f-8d3b-a3e2b642d350</tstamps>
+    </comp>
+    <comp ref="SW20">
+      <value>C-RIGHT</value>
+      <footprint>Sergio_footprints:SW_MX_1.00u_PCB_Hybrid</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ca56353-72f9-4b9e-959c-a99af4493b8c</tstamps>
+    </comp>
+    <comp ref="SW21">
+      <value>BOOTSEL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>970cbb54-6288-4c80-9df7-d22f28d02755</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Pico_Rectangle</value>
+      <footprint>Sergio_footprints:RPi_Pico_Removed3Pins</footprint>
+      <libsource lib="Sergio_library" part="Pico_Rectangle" description="Raspberry Pi Pico used for rectangle controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SergioPico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f9b49fc-a298-45ef-9d96-186866f55a34</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BEC">
+      <description>NPN transistor, base/emitter/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Motor" part="Motor_DC_ALT">
+      <description>DC Motor, alternative symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Motor_DC_ALT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sergio_library" part="Pico_Rectangle">
+      <description>Raspberry Pi Pico used for rectangle controller</description>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">Pico_Rectangle</field>
+        <field name="Footprint">Sergio_footprints:RPi_Pico_Removed3Pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="START" type="bidirectional"/>
+        <pin num="2" name="GP1" type="no_connect"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="RIGHT" type="bidirectional"/>
+        <pin num="5" name="DOWN" type="bidirectional"/>
+        <pin num="6" name="LEFT" type="bidirectional"/>
+        <pin num="7" name="L" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="MX" type="bidirectional"/>
+        <pin num="10" name="MY" type="bidirectional"/>
+        <pin num="11" name="GP8" type="no_connect"/>
+        <pin num="12" name="GP9" type="no_connect"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GP10" type="no_connect"/>
+        <pin num="15" name="RUMBLE" type="bidirectional"/>
+        <pin num="16" name="C-UP" type="bidirectional"/>
+        <pin num="17" name="C-LEFT" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="A" type="bidirectional"/>
+        <pin num="20" name="C-DOWN" type="bidirectional"/>
+        <pin num="21" name="C-RIGHT" type="bidirectional"/>
+        <pin num="22" name="UP" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="MS" type="bidirectional"/>
+        <pin num="25" name="Z" type="bidirectional"/>
+        <pin num="26" name="LS" type="bidirectional"/>
+        <pin num="27" name="X" type="bidirectional"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="Y" type="bidirectional"/>
+        <pin num="30" name="RUN" type="no_connect"/>
+        <pin num="31" name="B" type="bidirectional"/>
+        <pin num="32" name="R" type="bidirectional"/>
+        <pin num="33" name="GND" type="power_in"/>
+        <pin num="34" name="DATA" type="bidirectional"/>
+        <pin num="35" name="VREF" type="no_connect"/>
+        <pin num="36" name="3V3(OUT)" type="no_connect"/>
+        <pin num="37" name="3V3_EN" type="no_connect"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="VSYS" type="power_in"/>
+        <pin num="40" name="VBUS" type="power_in"/>
+        <pin num="TP1" name="GND" type="power_in"/>
+        <pin num="TP2" name="D-" type="bidirectional"/>
+        <pin num="TP3" name="D+" type="bidirectional"/>
+        <pin num="TP6" name="BOOTSEL" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sergio_library" part="SergioPico_USB">
+      <description>Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SergioPico_USB</field>
+        <field name="Footprint">Sergio_footprints:SergioPico_USB</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="bidirectional"/>
+        <pin num="2" name="Pin_2" type="power_out"/>
+        <pin num="3" name="Pin_3" type="bidirectional"/>
+        <pin num="4" name="Pin_4" type="bidirectional"/>
+        <pin num="5" name="Pin_5" type="power_out"/>
+        <pin num="6" name="Pin_6" type="power_out"/>
+        <pin num="7" name="Pin_7" type="power_out"/>
+        <pin num="8" name="Pin_8" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Motor.kicad_sym</uri>
+    </library>
+    <library logical="Sergio_library">
+      <uri>C:/Users/Sergio/Documents/KiCad/6.0/symbols/Sergio_library.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="power_out"/>
+      <node ref="M1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="M2" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="VBUS" pintype="power_in"/>
+    </net>
+    <net code="2" name="A">
+      <node ref="SW19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="B">
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="B" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="BOOT">
+      <node ref="SW21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="TP6" pinfunction="BOOTSEL" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="C-DOWN">
+      <node ref="SW17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="C-DOWN" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="C-LEFT">
+      <node ref="SW16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="C-LEFT" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="C-RIGHT">
+      <node ref="SW20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="C-RIGHT" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="C-UP">
+      <node ref="SW18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="C-UP" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="D+">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="bidirectional"/>
+      <node ref="U1" pin="TP3" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="D-">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="bidirectional"/>
+      <node ref="U1" pin="TP2" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="DATA">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="bidirectional"/>
+      <node ref="U1" pin="34" pinfunction="DATA" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="DOWN">
+      <node ref="SW7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="DOWN" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="power_out"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="power_out"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW21" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="33" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="38" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="TP1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="14" name="L">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="L" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="LEFT">
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="LEFT" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="LS">
+      <node ref="SW15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="LS" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="MS">
+      <node ref="SW13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="MS" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="MX">
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="MX" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="MY">
+      <node ref="SW6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="MY" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="M1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="M2" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="R">
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="R" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="RIGHT">
+      <node ref="SW10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="RIGHT" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="RUMBLE">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="RUMBLE" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="START">
+      <node ref="SW12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="START" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="UP">
+      <node ref="SW14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="UP" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="VSYS">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="power_out"/>
+      <node ref="U1" pin="39" pinfunction="VSYS" pintype="power_in"/>
+    </net>
+    <net code="28" name="X">
+      <node ref="SW9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="X" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Y">
+      <node ref="SW8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="Y" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Z">
+      <node ref="SW11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="Z" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(J1-Pad7)">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="power_out+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="GP1" pintype="no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="GP8" pintype="no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="GP9" pintype="no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="GP10" pintype="no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1-Pad30)">
+      <node ref="U1" pin="30" pinfunction="RUN" pintype="no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-Pad35)">
+      <node ref="U1" pin="35" pinfunction="VREF" pintype="no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-Pad36)">
+      <node ref="U1" pin="36" pinfunction="3V3(OUT)" pintype="no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-Pad37)">
+      <node ref="U1" pin="37" pinfunction="3V3_EN" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
